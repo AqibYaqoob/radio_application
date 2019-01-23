@@ -1,0 +1,99 @@
+<% var rootPath = '../'; %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--   <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+    <!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+
+    <style>
+        .carousel-item {
+            height: 100vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+    </style>
+<%- include(rootPath + 'layouts/user/slider'); %>
+    <!-- Page Content -->
+<body>
+<section class="py-5">
+    <div class="container">
+        <br> <br> <br>
+        <div class="row">
+            <div class="col-sm-3" style="margin-left: 130px;">
+                <div style="border: 2px solid #EEEFEE;">
+                    <div style="margin-bottom: 140px;"> <h5 style="margin-left: 10px">Help & Support</h5>
+                        <p style="margin-left: 10px">Find technical support and help articles on using Radio Web.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3" style="border: 2px solid #EEEFEE;">
+                <div>
+                    <h5 style="margin-left: 0px">Radio Web for Brands</h5>
+                    <p style="margin-left: 0px">Partner with radioweb to create compelling advertising, branded content, experiences, and more.</p>
+                </div>
+            </div>
+            <div class="col-sm-3" style="margin-left: 15px;border: 2px solid #EEEFEE;">
+                <div>
+                    <h5>Device Partners</h5>
+                    <p>Discover devices available with Radioweb and request information about business development opportunities.</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <br> <br>
+        <div class="row">
+            <div class="col-sm-3" style="    margin-left: 130px;">
+                <div style="border: 2px solid #EEEFEE;">
+                    <div style="margin-bottom: 140px;"> <h5 style="margin-left: 10px">Broadcasters</h5>
+                        <p style="margin-left: 10px">Connect your radio station with our millions of daily listeners. Learn how to get listed and start broadcasting on Radioweb.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3" style="border: 2px solid #EEEFEE;">
+                <div>
+                    <h5 style="margin-left: 0px">Podcasters</h5>
+                    <p style="margin-left: 0px">Maximize your impact! Add your podcast to Radioweb library of top titles and get discovered by millions of avid listeners.</p>
+                </div>
+            </div>
+            <div class="col-sm-3" style="margin-left: 15px;border: 2px solid #EEEFEE";>
+                <div>
+                    <h5>Press Inquiries</h5>
+                    <p>Find out what's new with TuneIn and contact our media team or get more information on our Press page.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<%- include(rootPath + 'layouts/user/sliderfooter'); %>
+</body>
+</html>

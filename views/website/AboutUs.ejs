@@ -1,0 +1,97 @@
+<% var rootPath = '../'; %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>About Us</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--   <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+    <!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+
+    <style>
+        .carousel-item {
+            height: 100vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+    </style>
+<%- include(rootPath + 'layouts/user/slider'); %>
+    <!-- Page Content -->
+<body>
+<section class="py-5">
+    <div class="container">
+        <br><br><br>
+        <div class="col-md-12" style="text-align: center; font-size: 25px">
+            <strong><p>Radio empowers people to hear exactly what
+                    they love the moment they want it, and discover
+                    a universe of audio, all in one place.</p></strong>
+            <h6>
+                We combine the power of audio, design, and technology
+                to bring together live sports, up-to-the-minute news,
+                curated music, millions of podcasts, and over 120,000
+                streaming radio stations. We are audio fanatics
+                working for fanatics, always pushing to deliver
+                the world’s best listening experience
+            </h6>
+        </div>
+        <div class="clearfix"></div>
+
+        <br> <br> <br>
+        <div class="row" style="margin-left: auto">
+            <div class="col-sm-3">
+                <div class="fadein" style="text-align: center">
+                    <h2>120K</h2>
+                    <p>Live Radio Stations</p>
+                </div>
+            </div>
+            <div class="col-sm-3" style="text-align: center">
+                <div class="fadein">
+                    <h2>75MM</h2>
+                    <p>Lis ners</p>
+                </div>
+            </div>
+            <div class="col-sm-3" style="text-align: center">
+                <div class="fadein">
+                    <h2>400MM</h2>
+                    <p>Listening Hours Monthly</p>
+                </div>
+            </div>
+            <div class="col-sm-3" style="text-align: center">
+                <div class="fadein">
+                    <h2>195</h2>
+                    <p>Countries Listening</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<%- include(rootPath + 'layouts/user/sliderfooter'); %>
+</body>
+</html>

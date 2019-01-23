@@ -1,0 +1,52 @@
+<%
+include ../common/libs
+include ../common/sidebar
+%>
+<div class="col-sm-10" style="width:auto;">
+    <div class="main">
+        <h1 style="font-size: 40px;">Home <a href="index.php" type="button" class="btn-lg"
+                                             style="background-color: black;color: white;margin-left: 392px">
+                Back to Main
+            </a>
+        </h1>
+        <br>
+        <div class="container-fluid">
+            <h3 style="margin-left: 18px">Most Popular</h3>
+            <div class="row">
+                <div class="col-sm-12" style="width: auto">
+                    <div class="col-sm-4">
+                        <img src="public/img/download (1).jpg" class="img-responsive thumbnail">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="public/img/download (2).jpg" class="thumbnail">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="public/img/download (1).jpg" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="container-fluid">
+            <h3 style="margin-left: 18px">Recents</h3>
+            <div class="row">
+                <div class="col-sm-12" style="width: auto">
+
+                    <div class="col-sm-4">
+                        <img src="public/img/download (1).jpg" class="thumbnail">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="public/img/download (2).jpg" class="thumbnail">
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="public/img/download (1).jpg" class="thumbnail">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <%- include(rootPath + 'layouts/user/sidebarfooter'); %>
+
+    </div>
+</div>
+</body>
+</html>

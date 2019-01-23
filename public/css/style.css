@@ -1,0 +1,208 @@
+.top-btn{
+	background-color: black;
+	color: white;
+	margin-top:10%
+	}
+	.border
+	{
+		border:1px solid #ccc;
+		padding: 8px;
+	
+	}
+	.text-align
+	{
+		text-align: center;
+
+	}
+	.search-btn
+	{
+		background: red;
+		color: beige;
+	}
+	.padding{
+		padding: 5px;
+	}
+	
+	.top-btn:hover{
+		text-decoration: none;
+		color: green;
+}
+
+	.margin-top-btn {
+		
+		margin-top:30px;
+	}
+      .margin{
+		  margin-top:83px;
+	  }
+	  .padding1
+	  {
+		  padding-left:70px;
+	  }
+.font-size
+{
+	font-size: 16px;
+}
+.background-color
+{
+	background-color: limegreen;
+}
+.color
+{
+   color: beige;
+}
+.padding-bottom
+{
+	padding-bottom: 10px;
+}
+
+.margin-top
+{
+	margin-top: 15px;
+	margin-left: -16px;
+	color:orangered;
+}
+.margin-top1
+{
+	
+	margin-top: 15px;
+}
+.margin-right
+{
+margin-right: 10px;
+}
+.padding-left
+{
+padding-lift: 140px;
+}
+.background-color{
+	background-color: green;
+	margin-top: 15px;
+	margin-bottom: 15px;
+
+}
+.color
+{
+	color: beige;
+}
+.dashboard
+{
+	background-color: #f8f8f8;
+}
+.dashboard1
+{
+	border: 1px solid #e7e7e7;
+}
+.form
+{
+	color: #333
+}
+.panel
+{
+	    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.panel-heading
+{
+	    padding: 8px;
+    background-color: #fdf9f9;
+    border: 1px solid #ddd;
+}
+.panel-title
+{
+	 margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: inherit;
+}
+.login1
+{
+	margin-top: 100px;
+	border: 1px solid #ddd
+}
+.panelheading
+{
+	color: #333;
+	background-color: #f5f5f5;
+	 border: 1px solid #ddd;
+	 padding: 0px
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+.side-bar {
+ background: #f8f8f8;
+ border-right: 1px solid #EEE;
+ margin-left: -38px
+
+
+}
+
+.side-bar ul {
+ list-style: none;
+
+}
+
+.side-bar ul li{
+ padding: 5px;
+ border-bottom:1px solid #e7e7e7;
+}
+.body {
+	font-family: "Lato", sans-serif;
+	transition: background-color .5s;
+}
+
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #111;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+
+.sidenav a {
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+}
+
+.sidenav a:hover {
+	color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+
+#main {
+	transition: margin-left .5s;
+	padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+	.sidenav {padding-top: 15px;}
+	.sidenav a {font-size: 18px;}
+}
+
+
+
+
+
+
+

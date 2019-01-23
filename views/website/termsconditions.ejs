@@ -1,0 +1,89 @@
+<% var rootPath = '../'; %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Terms</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--   <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+    <!--    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
+
+    <style>
+        .carousel-item {
+            height: 100vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+    </style>
+      <%- include(rootPath + 'layouts/user/slider'); %>
+    <!-- Page Content -->
+<body>
+<section class="py-5">
+    <div class="container">
+        <div>
+            Lorem Ipsum is simply dummy text of the printing and
+            typesetting industry. Lorem Ipsum has been the industry's
+            standard dummy text ever since the 1500s, when an unknown
+            printer took a galley of type and scrambled it to make a
+            type specimen book. It has survived not only five centuries,
+            but also the leap into electronic typesetting, remaining
+            essentially unchanged. It was popularised in the 1960s with
+            the release of Letraset sheets containing Lorem Ipsum passages,
+            and more recently with desktop publishing software like Aldus
+            PageMaker including versions of Lorem Ipsum.
+        </div>
+        <br><br>
+        <div>
+            <h3>1. General Terms and Conditions.</h3>
+            <p>Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+                Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s.</p>
+            <h5>a. Changes to this EULA.</h5>
+            <p>Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+                Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s.</p>
+            <h5>b. Privacy Policy, Copyright Policy and Acceptable Use Policy.</h5>
+            <p>Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+                Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s.</p>
+            <h3>2. The Service.</h3>
+            <p>Lorem Ipsum is simply dummy text of the
+                printing and typesetting industry.
+                Lorem Ipsum has been the industry's
+                standard dummy text ever since the 1500s.</p>
+        </div>
+    </div>
+
+</section>
+<%- include(rootPath + 'layouts/user/sliderfooter'); %>
+</body>
+</html>

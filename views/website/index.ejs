@@ -1,0 +1,72 @@
+<% var rootPath = '../'; %>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Index</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--   <link rel="stylesheet" href="css/bootstrap.min.css">-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+          integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+            integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
+            integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
+
+    <style>
+        .carousel-item {
+            height: 100vh;
+            min-height: 350px;
+            background: no-repeat center center scroll;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 2px;
+            border-radius: 50%;
+        }
+    </style>
+<%- include(rootPath + 'layouts/user/slider'); %>
+<body>
+
+
+<section class="py-5">
+    <div class="container">
+        <div class="col-md-12">
+            <input class="form-control rounded-0 py-2" type="search"
+                   placeholder="Search for Stations, Podcasts Or Events" id="example-search-input"
+                   style="margin-top:-26px;padding:15px;border-bottom:2px solid;height: calc(4.25rem + 2px);">
+        </div>
+        <div class="clearfix"></div>
+        <br><br><br>
+        <div class="col-md-12" style="text-align: center; font-size: 25px">
+            <p>TuneIn brings you live sports, music, news, podcasts,
+                and<br> internet radio from around the world. Listen to the
+                audio you love on any device and let the<br> moments move you.</p>
+            <button type="button" class="btn-lg" style="background-color:black;color:white;">
+                Listen Now
+            </button>
+        </div>
+        <div class="clearfix"></div>
+
+    </div>
+
+</section>
+<%- include(rootPath + 'layouts/user/sliderfooter'); %>
+
+</body>
+</html>
